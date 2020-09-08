@@ -4,6 +4,12 @@
 
 pthread_cond_t rwlock;
 
+/* An implementation of read/write mutex locks in PThreads
+The locks stop parallel programs with multiple threads from having
+two threads try and read or write to the same piece of data
+at the same time
+*/
+
 typedef struct newLock{
     int readers;
     int isWriting;
