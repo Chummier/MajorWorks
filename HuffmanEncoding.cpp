@@ -9,6 +9,13 @@ vector<int> frequency(6);
 string try1;
 string try2;
 
+/* This is a program that does Huffman Encoding
+It takes in a series of letters and their frequencies that they would appear
+in some body of text and then makes a binary tree that gives unique codes for each letter
+
+In the end it gives an encoding that uses less bits to represent the letters than normal
+*/
+
 struct Node{
     int frequency;
     bool isDummy = false;
