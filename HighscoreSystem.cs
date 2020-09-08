@@ -6,6 +6,24 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
+/* Other than looking up how to save data into files, this script is fully written by me
+It's from a 3D platforming game in Unity and it stores highscores that save even after the
+game is closed
+
+The highscores display on a list that automatically updates in descending order when new scores
+are added
+
+Notable features include:
+
+A data structure involving a dictionary that stories a list of structs
+
+A list of scores that always stays in descending order, even when new scores are added
+
+Scores that save locally on the computer
+
+Functions for adding new scores that are easy to use
+*/
+
 [System.Serializable]
 public struct RaceHighscore
 {
