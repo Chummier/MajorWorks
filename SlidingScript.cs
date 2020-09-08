@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* For the same Unity game
+This is a script I wrote that makes objects move back and forth
+It's easily customizable and it checks if the object has gone a certain distance
+from its starting position to know if it should go in the opposite direction yet
+
+*/
+
 public class SlidingScript : MonoBehaviour {
 
 	public float limit = 0;
