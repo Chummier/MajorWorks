@@ -1,6 +1,10 @@
 #include <emmintrin.h>
 #include <stdio.h>
 
+/* A couple of cache optimization techniques
+Loop unrolling, vector operations, and cache pre-fetching
+*/
+
 // Loop unrolling
 void dgemm( int m, int n, float *A, float *C )
 {
