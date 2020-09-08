@@ -6,6 +6,8 @@
 
 int sqrtP;
 
+// An incomplete implementation of parallel matrix multiplication using MPI
+
 void multiply(int** m_A, int** m_B, int** m_C, int rank, int n, int procs){
     int** recvMatrix;
 
