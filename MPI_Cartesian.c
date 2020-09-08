@@ -2,6 +2,11 @@
 #include <mpi.h>
 #include <stdlib.h>
 
+/* Parallel program using MPI that takes a set of communication nodes,
+Gives each one a unique id in a grid layout,
+And then uses those ids to send data between nodes
+*/
+
 void modifyData(int* data, int n){
     for (int i = 0; i < n; i++){
         data[i] = i;
