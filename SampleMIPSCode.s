@@ -1,3 +1,6 @@
+# A MIPS assembly program that 
+# MIPSInterpreter.c would execute
+
 .text
 addiu $t0, $zero, -3
 addiu $t1, $zero, 5
