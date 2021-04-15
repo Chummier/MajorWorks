@@ -1,6 +1,7 @@
 # MajorWorks
 
-This repository has branches where I've put notable coding work that I've done in the past
+This repository has branches where I've put notable coding work that I've done
 
-I tried to include things that were beyond just basic coding exercises-
 I included things that were challenging to me to code and that I was proud of
+
+OF PARTICULAR NOTE: is the C# branch, which has snippits of my code from the Unity game I made
